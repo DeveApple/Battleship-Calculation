@@ -5,12 +5,14 @@ You will write your input in format then the program will execute the output, wh
 
 ### Input file
 First line contains H, W, K, which are the height, width of the board, and number of ships in the board. All the values are seperated by spaces.
+
 Second line contains K width of each ships. All values are separated by spaces
+
 Next H lines contains the information about H row:
-    - Each row has W characters, which consists information on each cell. All characters are seperated by spaces. Characters are defined in the following:
-        + 'x' marks the unrevealed cell
-        + '#' marks the empty cell
-        + Number from 1 to K indicates the cell contains the i_th ship in the second line of the input file
+- Each row has W characters, which consists information on each cell. All characters are seperated by spaces. Characters are defined in the following:
+  + 'x' marks the unrevealed cell
+  + '#' marks the empty cell
+  + Number from 1 to K indicates the cell contains the i_th ship in the second line of the input file
 
 ### Output file
 Output the HxW board consist chances having ship on each cell
