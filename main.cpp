@@ -21,8 +21,24 @@ void fastio(string input_filename = "", string output_filename = "")
     return;
 }
 
+string INPUT_UNREVEAL = "x", INPUT_EMPTY = "#", OUTPUT_REVEAL = ".";
+
 void solve()
 {
+    long long H, W, K;
+    cin >> H >> W >> K;
+
+    vector <long long> ship_list(K+1);
+    for (long long i(1); i <= K; ++i) {
+        cin >> ship_list[i];
+    }
+    vector <vector <string>> board(H, vector <string>(W));
+    for (long long y(0); y < H ++y) {
+        for (long long x(0); x < W; ++x) {
+            cin >> board[y][x];
+        }
+    }
+
     
 
     return;
